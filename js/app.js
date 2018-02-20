@@ -97,6 +97,10 @@ var story = document.getElementById("story");
       else if (destination == "peace"){     
       grinch.style.display = "block";
       }
+      else if (destination == "aradan"){     
+      music.pause();
+      tripmsc.play();
+      }
       
       // Display section with id == destination and hide all others
       $('section[id="' + destination + '"]').addClass('open').siblings().removeClass('open');
