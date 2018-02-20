@@ -99,9 +99,7 @@ var story = document.getElementById("story");
       grinch.style.display = "block";
       }
       else if (destination == "aradan"){     
-      music.pause();
       logo2.style.display = "block";
-      music.play();
       }
       else if (destination == "machvi"){     
       music.pause();
