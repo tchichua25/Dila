@@ -100,6 +100,7 @@ var story = document.getElementById("story");
       }
       else if (destination == "aradan"){     
       music.pause();
+      logo2.style.display = "block";
       music.play();
       }
       else if (destination == "machvi"){     
