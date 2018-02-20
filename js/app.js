@@ -19,6 +19,7 @@ var typer = new Audio('type.mp3');
 var music = new Audio('music.mp3');
 var tripmsc = new Audio('bad trip.mp3');
 var talgamsc = new Audio('talga.mp3');
+var taroebi = new Audio('taroebi.mp3');
 if (typeof music.loop == 'boolean')
 {
     music.loop = true;
@@ -98,8 +99,10 @@ var story = document.getElementById("story");
       else if (destination == "peace"){     
       grinch.style.display = "block";
       }
-      else if (destination == "aradan"){     
+      else if (destination == "aradan"){       
+      music.pause();
       logo2.style.display = "block";
+      music.play();    
       }
       else if (destination == "machvi"){     
       music.pause();
