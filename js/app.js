@@ -69,6 +69,7 @@ var story = document.getElementById("story");
 
     if(e.which == 13){// ENTER key pressed
       grinch.style.display = "none";
+      taroebi.pause();
       talgamsc.pause();
       tripmsc.pause();
       img1.style.display = "none";
@@ -99,9 +100,12 @@ var story = document.getElementById("story");
       }
       else if (destination == "aradan"){     
       music.pause();
-      tripmsc.play();
+      music.play();
       }
-      
+      else if (destination == "machvi"){     
+      music.pause();
+      taroebi.play();
+      }
       // Display section with id == destination and hide all others
       $('section[id="' + destination + '"]').addClass('open').siblings().removeClass('open');
 
