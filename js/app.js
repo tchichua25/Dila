@@ -19,7 +19,7 @@ var typer = new Audio('type.mp3');
 var music = new Audio('music.mp3');
 var tripmsc = new Audio('bad trip.mp3');
 var talgamsc = new Audio('talga.mp3');
-var taroebi = new Audio('taroebi.mp3');
+var taroebi = new Audio('taroebi2.mp3');
 if (typeof music.loop == 'boolean')
 {
     music.loop = true;
