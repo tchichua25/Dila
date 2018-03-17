@@ -20,7 +20,7 @@ html {
 
 html {
   background-color: #344152;
-  overflow-y: auto;
+  overflow-y: scroll;
   
 }
 .vignette {
@@ -74,7 +74,7 @@ div.spaceimg{
 }
 
 body {
-  overflow: auto;
+  overflow: scroll;
   font: .875em/1.6 'Inconsolata', monospace;
   line-height: 80%;
   color: #44C553;
@@ -118,7 +118,7 @@ h2{
 }
 
 p{
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 abbr{
   cursor: help;
