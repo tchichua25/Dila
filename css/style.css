@@ -20,7 +20,6 @@ html {
 
 html {
   background-color: #344152;
-  overflow-y: scroll;
   
 }
 .vignette {
@@ -118,7 +117,7 @@ h2{
 }
 
 p{
-  margin-bottom: 3em;
+
 }
 abbr{
   cursor: help;
